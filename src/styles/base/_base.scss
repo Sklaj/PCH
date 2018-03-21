@@ -1,0 +1,37 @@
+html{
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-size: $small;
+}
+
+.row::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.dark{
+    background-color: black;
+    color: $lightGrey;
+}
+
+.light{
+    background-color: $lightGrey;
+    color: $darkBlue;
+}
+
+button{
+    cursor: pointer;
+}
+
+button:disabled{
+    cursor: default;
+}

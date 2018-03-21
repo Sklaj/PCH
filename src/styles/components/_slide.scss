@@ -1,0 +1,36 @@
+.slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    h3{
+        margin-top: $medium;
+        font-weight: 300;
+        text-transform: uppercase;
+        font-size: $mediumPlus;
+        color: $orange;
+    }
+
+    .menu{
+        display: flex;
+        list-style: none;
+        justify-content: space-between;
+        padding: 0;
+
+        li{
+            text-transform: uppercase;
+            font-weight: 300;
+           a{
+                color: $lightGrey;
+                text-decoration: none;
+           }
+        }
+    }
+
+    .angle{
+        width: 100%;
+        height: 10px;
+        background-color: $lightGrey;
+    }
+
+}
