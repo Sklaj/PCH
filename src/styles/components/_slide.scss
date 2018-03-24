@@ -19,6 +19,10 @@
         font-size: $medium + 5px;
         color: $orange;
     }
+    img{
+        display: block;
+        width: 100%;
+    }
 
     .menu{
         display: flex;
@@ -35,6 +39,11 @@
            a{
                 color: $lightGrey;
                 text-decoration: none;
+
+                &:hover{
+                    color: $orange;
+                    font-weight: 700;
+                }
            }
         }
     }

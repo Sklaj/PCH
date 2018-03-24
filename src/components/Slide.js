@@ -5,10 +5,9 @@ const Slide = () => {
         <div className='row dark'>
             <div className='container slide'>
                 <div className='half left'>
-                    <img src='./img/logo.png'/>
+                    <img src='./img/logo.png' className='logo'/>
                     <h3>Front-End Dev | Graphic Designer</h3>
                     <ul className='menu'>
-                        <li><a href='#Home'>Home</a></li>
                         <li><a href='#Skills'>Skills</a></li>
                         <li><a href='#Folio'>Folio</a></li>
                         <li><a href='#Code'>Code</a></li>
@@ -19,8 +18,8 @@ const Slide = () => {
                 <div className='half img'>
                     <img src='./img/slide.png'/>
                 </div>
-                <div className='angle'></div>
             </div>
+            <div className='angle light'></div>
         </div>
     );
 };

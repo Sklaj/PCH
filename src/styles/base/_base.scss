@@ -5,6 +5,19 @@ html{
 body {
     font-family: 'Lato', sans-serif;
     font-size: $small;
+    background-color: $lightGrey;
+}
+
+.row{
+    position: relative;
+    overflow: hidden;
+    .angle{
+        position: absolute;
+        bottom: -16px;
+        width: 105%;
+        height: 35px;
+        transform: rotate(-1deg);
+    }
 }
 
 .row::after{

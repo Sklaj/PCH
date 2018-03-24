@@ -10,6 +10,7 @@ class Home extends React.Component{
             <div className='main'>
                 <Slide/>
                 <Skills/>
+                <Slide/>
             </div>
         );
     };
