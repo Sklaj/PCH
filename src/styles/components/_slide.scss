@@ -1,25 +1,37 @@
 .slide {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     align-items: center;
+
+    img{
+        padding: 1px;
+    }
+
+    .half{
+        width: 50%;
+    }
 
     h3{
         margin-top: $medium;
         font-weight: 300;
         text-transform: uppercase;
-        font-size: $mediumPlus;
+        font-size: $medium + 5px;
         color: $orange;
     }
 
     .menu{
         display: flex;
+        flex-wrap: wrap;
         list-style: none;
         justify-content: space-between;
-        padding: 0;
+        padding: 0 $medium 0 0;
+        
 
         li{
             text-transform: uppercase;
             font-weight: 300;
+            padding: 2px;
            a{
                 color: $lightGrey;
                 text-decoration: none;
@@ -28,9 +40,11 @@
     }
 
     .angle{
+        align-items: flex-end;
         width: 100%;
         height: 10px;
         background-color: $lightGrey;
+        // transform: rotate(-1deg);
     }
 
 }

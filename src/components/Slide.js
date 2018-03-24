@@ -16,7 +16,7 @@ const Slide = () => {
                         <li><a href='#Contact'>Contact</a></li>
                     </ul>
                 </div>
-                <div className='half'>
+                <div className='half img'>
                     <img src='./img/slide.png'/>
                 </div>
                 <div className='angle'></div>
